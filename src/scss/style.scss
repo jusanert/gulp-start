@@ -1,0 +1,15 @@
+// Global SCSS uses
+@import'mixins';
+@import'vars';
+@import'reset';
+@import'fonts';
+@import'global';
+
+
+// Sections SCSS files uses
+@import'chunk/header';
+@import'chunk/footer';
+
+
+// Libs 
+// @import'./libs/swiper';

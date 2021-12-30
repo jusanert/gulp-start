@@ -1,0 +1,22 @@
+// Container & Breakpoints
+$containerWidth: 1100;
+$containerPadding: 20;
+$xs: 320px;
+$xm: 375px;
+$xl: 425px;
+$tablet: 768px;
+$laptop: 1024px;
+$laptopL: 1440px;
+
+//Color
+$defaultColor: #99EFD0;
+$titleСolor: #8476AA;
+$subtitleСolor: #fff;
+
+// Burger Menu 
+$burgerBreakpoint: $tablet;
+$burgerActiveColor: 'white';
+
+// Fonts
+$fontMain: sans-serif;
+$fontSecondary: '';
