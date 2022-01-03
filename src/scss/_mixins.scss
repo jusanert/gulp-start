@@ -1,5 +1,5 @@
 @mixin adaptiv-font($pcSize, $mobSize, $lineH) {
-    @media (min-width: $container){
+    @media (min-width: $containerWidth) {
         font-size: $pcSize + px;
         line-height: $lineH + px;
     }
