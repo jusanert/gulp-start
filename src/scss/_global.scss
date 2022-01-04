@@ -39,54 +39,6 @@ body {
     padding: 0 $containerPadding + px;
 }
 
-//Burger-menu
-@media (max-width: 768px) {
-    .burger {
-        width: 55px;
-        height: 40px;
-        cursor: pointer;
-        z-index: 5;
-        position: fixed;
-        right: 15px;
-
-        &__line {
-            width: 100%;
-            height: 5px;
-            position: absolute;
-            right: 0;
-            transition: .2s linear;
-
-            &-first {
-                top: 0;
-            }
-
-            &-second,
-            &-third {
-                top: 50%;
-                transform: translateY(-50%);
-            }
-
-            &-fourth {
-                bottom: 0;
-            }
-        }
-
-        &__active &__line-first,
-        &__active &__line-fourth {
-            opacity: 0;
-        }
-
-        &__active &__line-second {
-            transform: translateY(-50%) rotate(45deg);
-        }
-
-        &__active .burger__line-third {
-            transform: translateY(-50%) rotate(-45deg);
-        }
-    }
-}
-
-
 // Body Locked
 body {
 
